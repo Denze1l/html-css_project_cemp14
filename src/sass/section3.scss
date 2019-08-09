@@ -83,12 +83,13 @@
 
 .section3__photo {
   background-image: url(../images/map.png);
-  width: 300px;
+  width: 315px;
   height: 193px;
   margin-top: -136px;
   filter: alpha(Opacity=25);
   opacity: 0.25;
   position: absolute;
+  background-repeat: no-repeat;
 
   @media (min-width: 768px) {
     margin-left: 340px;
