@@ -260,6 +260,8 @@
       flex-direction: row;
       order: 2;
       justify-content: space-between;
+      padding-top: 40px;
+      padding-bottom: 36px;
     }
   }
 
@@ -272,6 +274,9 @@
       width: 375px;
       background-position: 226px 25px;
       padding-top: 40px;
+    }
+    @media (min-width:1200px) {
+      padding-top: 0px;
     }
   }
 
